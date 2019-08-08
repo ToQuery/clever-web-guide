@@ -1,0 +1,30 @@
+{
+  "name": "clever-framework-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToQuery/clever-framework-guide.git"
+  },
+  "keywords": [
+    "clever",
+    "web",
+    "curd"
+  ],
+  "author": "toquery@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToQuery/clever-framework-guide/issues"
+  },
+  "homepage": "https://github.com/ToQuery/clever-framework-guide#readme",
+  "devDependencies": {
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "vuepress": "^1.0.3"
+  }
+}
