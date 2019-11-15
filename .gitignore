@@ -1,5 +1,6 @@
 package-lock.json
 
+docs/.vuepress/dist
 # Logs
 logs
 *.log
