@@ -7,6 +7,7 @@ module.exports = {
   repo: 'ToQuery/clever-framework',
   editLinks: true,
   docsDir: 'docs',
+  dest: 'dist',
   editLinkText: '帮助我们改善此页面！',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
