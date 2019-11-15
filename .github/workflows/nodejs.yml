@@ -9,7 +9,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [12.x]
+        # node-version: [8.x, 10.x, 12.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -29,6 +30,6 @@ jobs:
       with:
         target_branch: gh-pages
         build_dir: dist
-        repo: toquery/cleverweb
+        # repo: toquery/cleverweb
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
