@@ -2,10 +2,11 @@
  * vue-press config
  */
 module.exports = {
-  title: 'Clever Framework Guide',
-  description: 'Clever Framework Guide',
-  repo: 'ToQuery/clever-framework',
+  title: 'Clever Web Guide',
+  description: 'Clever Web Guide',
+  repo: 'ToQuery/CleverWeb',
   editLinks: true,
+  base: '/CleverWeb/',
   docsDir: 'docs',
   dest: 'dist',
   editLinkText: '帮助我们改善此页面！',
